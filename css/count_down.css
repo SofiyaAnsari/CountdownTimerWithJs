@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   background-image: url(../images/countdown.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   
+}
+h1 {
+    color: rgb(204, 60, 127);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div {
+    margin-bottom: 1em;
+}
+label {
+    display: inline-block;
+    width: 6em;
+}
+input {
+    margin-left: 1em;
+}
+#message {
+    font-weight: bold;
+    color:rgb(40, 179, 133);
+    text-align: center;
+    font-size: 15px;
+    width: auto;
+    background-color: white;
+}
+main{
+    margin: 0 auto;
+    width: 300px;
+    border: 3px solid rgb(56, 212, 186);
+    padding: 0 2em 1em;
+    display: flex;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+small{
+    color:rgb(204, 60, 127);
+    font-size: 20px;
+   
+    background-color:white;
+  
+}
+#countdown
+{
+    background-color: rgb(204, 60, 127);
+    color: white;
+    font-size: 20px;
+    border: none;
+
+}
